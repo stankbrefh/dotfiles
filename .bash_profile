@@ -44,10 +44,10 @@ if [ -s $git_prompt_script ]; then
   # `brew install git`)
   source $git_prompt_script
   export GIT_PS1_SHOWDIRTYSTATE=1
-  export PS1='\n$ColorRed\W$ColorReset$(__git_ps1)$ColorReset :> '
+  export PS1="\n$ColorRed\W$ColorReset$(__git_ps1)$ColorReset :> "
 else
   # otherwise omit git from the prompt
-  export PS1='\n$ColorRed\W$ColorReset :> '
+  export PS1="\n$ColorRed\W$ColorReset :> "
 fi
 
 # Colors ls should use for folders, files, symlinks etc, see `man ls` and
