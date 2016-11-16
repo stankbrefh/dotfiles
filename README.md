@@ -10,3 +10,8 @@ These are a collection of dotfiles.
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
++ Afterwards, make sure your new packages are up to date.
+``` bash
+brew update
+brew upgrade
+```
